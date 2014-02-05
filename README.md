@@ -1,3 +1,6 @@
+Usage: rake db:comment
+
+```ruby
 namespace :db do
   desc "Comment to DB (postgresql only)"
   task :comment => :environment do
@@ -20,3 +23,4 @@ namespace :db do
     end
   end
 end
+```
